@@ -25,9 +25,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb
+
 
 # IDEs
 .vscode/
