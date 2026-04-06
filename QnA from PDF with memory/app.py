@@ -24,7 +24,7 @@ st.write("Upload Pdf's and chat with their content")
 api_key=st.text_input("Enter your Groq API key:",type="password")
 
 if api_key:
-    llm=ChatGroq(groq_api_key=api_key,model_name="Gemma2-9b-It")
+    llm=ChatGroq(groq_api_key=api_key,model_name="llama-3.1-8b-instant")
 
     session_id=st.text_input("Session ID",value="default_session")
 
